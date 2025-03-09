@@ -1,0 +1,335 @@
+/* ✨ Media Queries لتصميم متجاوب */
+@media (max-width: 480px) {
+    body {
+        background: url(img/da.gif) no-repeat center center fixed; /* يثبت الخلفية في مكانها */
+        background-size: cover; /* يجعل الخلفية تغطي كامل الشاشة */
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .img-Sakura {
+        width: 1100px;
+        position: relative;
+        left: -375px;
+        top: 20px;
+        animation: r1 3s ease-in-out;
+        transform: scale(0.7);
+    }
+    .img-1 {
+        width: 80px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .img-1:hover {
+        filter: drop-shadow(2px 2px 2px black);
+    }
+    .img-2 {
+        width: 130px;
+        position: absolute;
+        top: 18px;
+        left: 60px;
+    }
+    .img-2:hover {
+        filter: drop-shadow(2px 2px 2px black);
+    }
+    nav {
+        padding: 3px;
+        position: relative;
+        top: -590px;
+        left: 180px;
+    }
+    a {
+        font-size: 16px;
+        padding: 3px;
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-shadow: 0px 0px 10px black;
+    }
+    #t1 {
+        color: black;
+        text-shadow: 0px 0px 10px rgb(146, 28, 83),
+                     0px 0px 20px rgb(146, 28, 83);
+        font-size: 40px;
+        position: absolute;
+        top: 570px;
+        left: 50px;
+        animation: f1 1.5s ease-in-out;
+    }
+    #t1:hover {
+        text-shadow: 0px 0px 10px black,
+                     0px 0px 15px black;
+    }
+    #t2 {
+        color: black;
+        text-shadow: 0px 0px 10px rgb(146, 28, 83),
+                     0px 0px 20px rgb(146, 28, 83);
+        font-size: 30px;
+        position: absolute;
+        top: 640px;
+        left: 60px;
+        animation: f2 2.5s ease-in-out;
+    }
+    #t2:hover {
+        text-shadow: 0px 0px 10px black,
+                     0px 0px 15px black;
+    }
+    #t3 {
+        width: 300px;
+        color: black;
+        text-shadow: 0px 0px 10px rgb(146, 28, 83),
+                     0px 0px 20px rgb(146, 28, 83);
+        font-size: 20px;
+        position: absolute;
+        top: 700px;
+        left: 60px;
+        animation: f3 3.5s ease-in-out;
+    }
+    #t3:hover {
+        text-shadow: 0px 0px 10px black,
+                     0px 0px 15px black;
+    }
+    .buuton-Sakura {
+        padding: 10px 55px;
+        border: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 6px;
+        font-family: cursive;
+        background-color: rgb(146, 28, 83);
+        filter: drop-shadow(2px 2px 2px rgb(146, 28, 83));
+        position: absolute;
+        left: 170px;
+        top: 840px;
+        animation: f4 4.5s ease-in-out;
+    }
+    .buuton-Sakura:hover {
+        background-color: rgb(242, 45, 120);
+        filter: drop-shadow(2px 2px 2px rgb(242, 45, 120));
+        transform: scale(1.1);
+        text-shadow: 0px 0px 10px white;
+    }
+    .buuton-Sakura:active {
+        transform: scale(1.2);
+    }
+    
+    
+    @keyframes f1 {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes f2 {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes f3 {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes f4 {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes r1 {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}  
+@media (max-width: 768px) {
+    body {
+        background: url(img/da.gif) no-repeat center center fixed; /* يثبت الخلفية في مكانها */
+        background-size: cover; /* يجعل الخلفية تغطي كامل الشاشة */
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .img-Sakura {
+        width: 1100px;
+        position: relative;
+        left: -365px;
+        top: 20px;
+        animation: r1 3s ease-in-out;
+        transform: scale(0.7);
+    }
+    .img-1 {
+        width: 80px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .img-1:hover {
+        filter: drop-shadow(2px 2px 2px black);
+    }
+    .img-2 {
+        width: 130px;
+        position: absolute;
+        top: 18px;
+        left: 60px;
+    }
+    .img-2:hover {
+        filter: drop-shadow(2px 2px 2px black);
+    }
+    nav {
+        padding: 3px;
+        position: relative;
+        top: -590px;
+        left: 180px;
+    }
+    a {
+        font-size: 16px;
+        padding: 3px;
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-shadow: 0px 0px 10px black;
+    }
+    #t1 {
+        color: black;
+        text-shadow: 0px 0px 10px rgb(146, 28, 83),
+                     0px 0px 20px rgb(146, 28, 83);
+        font-size: 40px;
+        position: absolute;
+        top: 570px;
+        left: 50px;
+        animation: f1 1.5s ease-in-out;
+    }
+    #t1:hover {
+        text-shadow: 0px 0px 10px black,
+                     0px 0px 15px black;
+    }
+    #t2 {
+        color: black;
+        text-shadow: 0px 0px 10px rgb(146, 28, 83),
+                     0px 0px 20px rgb(146, 28, 83);
+        font-size: 30px;
+        position: absolute;
+        top: 640px;
+        left: 60px;
+        animation: f2 2.5s ease-in-out;
+    }
+    #t2:hover {
+        text-shadow: 0px 0px 10px black,
+                     0px 0px 15px black;
+    }
+    #t3 {
+        width: 300px;
+        color: black;
+        text-shadow: 0px 0px 10px rgb(146, 28, 83),
+                     0px 0px 20px rgb(146, 28, 83);
+        font-size: 20px;
+        position: absolute;
+        top: 700px;
+        left: 60px;
+        animation: f3 3.5s ease-in-out;
+    }
+    #t3:hover {
+        text-shadow: 0px 0px 10px black,
+                     0px 0px 15px black;
+    }
+    .buuton-Sakura {
+        padding: 10px 55px;
+        border: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 6px;
+        font-family: cursive;
+        background-color: rgb(146, 28, 83);
+        filter: drop-shadow(2px 2px 2px rgb(146, 28, 83));
+        position: absolute;
+        left: 170px;
+        top: 840px;
+        animation: f4 4.5s ease-in-out;
+    }
+    .buuton-Sakura:hover {
+        background-color: rgb(242, 45, 120);
+        filter: drop-shadow(2px 2px 2px rgb(242, 45, 120));
+        transform: scale(1.1);
+        text-shadow: 0px 0px 10px white;
+    }
+    .buuton-Sakura:active {
+        transform: scale(1.2);
+    }
+    
+    
+    @keyframes f1 {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes f2 {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes f3 {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes f4 {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes r1 {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
